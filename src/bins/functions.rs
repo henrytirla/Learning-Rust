@@ -1,9 +1,10 @@
 fn main() {
-    println!("Hello, world!");
+    //println!("Hello, world!");
 
-    another_function();
-}
+    another_function(-5);
+    d}
 
-fn another_function() {
-    println!("Another function.");
+fn another_function(x:i32) {
+    //println!("Another function.");
+	println!("The value of x is: {x}")
 }
