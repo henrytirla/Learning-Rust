@@ -25,3 +25,7 @@ path = "src/bins/variables.rs"
 [[bin]]
 name = "functions"
 path = "src/bins/functions.rs"
+
+[[bin]]
+name = "controlflow"
+path = "src/bins/controlflow.rs"

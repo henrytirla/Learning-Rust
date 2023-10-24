@@ -53,5 +53,5 @@ fn expression_value(){
 
 
 fn return_variable()->i32{
-	5
+	5 + 1
 }
