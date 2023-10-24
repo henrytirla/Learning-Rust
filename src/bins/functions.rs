@@ -28,6 +28,9 @@ fn main() {
     another_function(-5);
 	print_labeled_measurement(5,'m');
 	expression_value();
+	let return_value = return_variable();
+	println!("The value of returnValue  is: {return_value}");
+	
 	
 }
 
@@ -46,4 +49,9 @@ fn expression_value(){
 		x+ 1
 	};
 	println!("The value of y is: {y}");
+}
+
+
+fn return_variable()->i32{
+	5
 }
