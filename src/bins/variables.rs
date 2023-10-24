@@ -7,7 +7,7 @@ fn main() {
     x = 6;
     println!("The value of x is: {x}");
 
-    
+
     // addition
     let sum = 5 + 10;
     println!("Sum {sum}");
@@ -36,5 +36,5 @@ fn main() {
 
     let f: bool = false;
     println!("F-Boolean {f}");
-    
+
 }

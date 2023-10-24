@@ -22,3 +22,6 @@ path = "src/bins/guess_game.rs"
 name = "variables"
 path = "src/bins/variables.rs"
 
+[[bin]]
+name = "functions"
+path = "src/bins/functions.rs"
