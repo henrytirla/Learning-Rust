@@ -11,6 +11,7 @@ fn main() {
     if_else();
 	loop_();
 	multiple_loop();
+	condition_while();
 }
 
 
@@ -66,4 +67,18 @@ fn multiple_loop() {
         count += 1;
     }
     println!("End count = {count}");
+}
+
+
+
+fn condition_while() {
+    let mut number = 3;
+
+    while number != 0 {
+        println!("{number}!");
+
+        number -= 1;
+    }
+
+    println!("RUST IS COOL!!!");
 }

@@ -29,3 +29,9 @@ path = "src/bins/functions.rs"
 [[bin]]
 name = "controlflow"
 path = "src/bins/controlflow.rs"
+
+
+
+[[bin]]
+name = "temperature_converter"
+path = "src/bins/temperature_converter.rs"
