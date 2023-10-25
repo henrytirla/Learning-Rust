@@ -9,7 +9,8 @@ You must be explicit and always provide if with a Boolean as its condition.
 
 fn main() {
     if_else();
-	loop_()
+	loop_();
+	multiple_loop();
 }
 
 
@@ -41,4 +42,28 @@ fn if_else(){
     } else {
         println!("number is not divisible by 4, 3, or 2");
     }
+}
+
+
+
+fn multiple_loop() {
+    let mut count = 0;
+    'counting_up: loop {
+        println!("count = {count}");
+        let mut remaining = 10;
+
+        loop {
+            println!("remaining = {remaining}");
+            if remaining == 9 {
+                break;
+            }
+            if count == 2 {
+                break 'counting_up;
+            }
+            remaining -= 1;
+        }
+
+        count += 1;
+    }
+    println!("End count = {count}");
 }
